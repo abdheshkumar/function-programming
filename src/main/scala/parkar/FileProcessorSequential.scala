@@ -1,8 +1,6 @@
 package parkar
 
-import scala.concurrent.Future
 import scala.io.{Codec, Source}
-import scala.util.{Failure, Success}
 
 /**
  * Created by Abdhesh.Kumar on 28-08-2016.
