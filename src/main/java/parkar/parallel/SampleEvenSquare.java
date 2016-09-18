@@ -7,6 +7,7 @@ import java.util.List;
 /**
  * Created by abdhesh on 9/6/16.
  */
+//Functional style and mutability
 class SampleEvenSquare {
 
     public static void main(String[] arg) {

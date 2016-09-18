@@ -8,6 +8,7 @@ import java.util.stream.Stream;
  * Created by abdhesh on 9/6/16.
  */
 
+//Don't use mutable in lambda functions
 class SampleMutable {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
@@ -17,5 +18,6 @@ class SampleMutable {
                 .map(f -> f * factor[0]);
         factor[0] = 0;
         stream.forEach(System.out::println);
+
     }
 }

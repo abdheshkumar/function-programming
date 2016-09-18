@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * Created by abdhesh on 9/6/16.
  */
+//Imperative vs Declarative
 class SampleImperativeVsDeclarative {
     public static void findName(List<String> names) {
         boolean temp = false;
